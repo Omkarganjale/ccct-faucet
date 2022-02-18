@@ -107,7 +107,7 @@ function App() {
 	const fundMe = async () => {
 		console.log('amount:', amount);
 
-		if (amount <= 0 || amount === 'S') {
+		if (amount == undefined || amount <= 0 || amount === 'S') {
 			alert('Not a valid Amount');
 			return;
 		}
