@@ -1,13 +1,135 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+    background:#1E1A1B;
+}
+.mainContainer {
+    
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #DA9F4A;
+}
+
+.wall-header {
+    text-align:center;
+    margin-top: 16px;
+    font-size: 22px;
+    font-weight: 550;
+    color: #2F3B39;
+}
+
+.bio {
+  text-align: center;
+  color: #DFE6E4;
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.loadContainer {
+  text-align: center;
+  color: #DFE6E4;
+  margin-top: 16px;
+  font-size: 15px;
+  align-content: center;
+}
+
+.spin {
+    margin: auto auto;
+}
+
+.button {
+    font-weight: 530;
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #e6d6d6;
+    color: #2F3B39;
+    box-shadow: 3px 5px 5px #524d4d;
+}
+
+body{
+    margin:0;
+}
+* {
+  box-sizing: border-box;
+}
+
+input {
+  display:block;
+  width:100%;
+  margin:16px 0 0;
+  padding:10px;
+}
+
+.type-1 {
+  border-radius:10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+}
+
+.type-1:hover {
+  border: 1px solid #aaa;
+}
+
+.element {
+    background-color: #CCD2D0;
+    
+    margin-top: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.msg {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2F3B39;
+}
+
+.adr {
+    font-size: 14px;
+    padding-top: 2px;
+    color: rgb(72, 90, 87);
+}
+
+.dt {
+    font-size: 14px;
+    color: rgb(72, 90, 87);
+}
+
+a{
+  color: #DFE6E4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer {
+    margin:0;
+    margin-top: 0.5rem;
+    background-color: #1E1A1B;
+    border-top:2px solid #CCD2D0;
+    width: 100%;
+    bottom: 0;
+    color: #CCD2D0;
+    font-size: 14px;
+    text-align : center;
+    margin-bottom: 0;
+    position: absolute; 
+    padding: 0.3em 0 0.3em 0;
 }
