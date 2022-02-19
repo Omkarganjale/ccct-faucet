@@ -102,6 +102,7 @@ function App() {
 		}
 
 		loadMe();
+		window.location.reload();
 	};
 
 	const fundMe = async () => {
