@@ -1,1 +1,1 @@
-Faucet for CCCT test tokens deployed on rinkeby testnet.
+Mint for CCCT test tokens deployed on rinkeby testnet.

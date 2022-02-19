@@ -157,7 +157,7 @@ function App() {
 					/>
 				) : (
 					<div className='dataContainer'>
-						<div className='header'>CCCT faucet</div>
+						<div className='header'>CCCT mint</div>
 						<div className='bio'> {constants.address} </div>
 						{!currentAccount && (
 							<button
