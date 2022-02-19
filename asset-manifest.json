@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ccct-faucet/static/css/main.0a117135.css",
-    "main.js": "/ccct-faucet/static/js/main.b321e85c.js",
+    "main.js": "/ccct-faucet/static/js/main.b6f384ee.js",
     "index.html": "/ccct-faucet/index.html",
     "main.0a117135.css.map": "/ccct-faucet/static/css/main.0a117135.css.map",
-    "main.b321e85c.js.map": "/ccct-faucet/static/js/main.b321e85c.js.map"
+    "main.b6f384ee.js.map": "/ccct-faucet/static/js/main.b6f384ee.js.map"
   },
   "entrypoints": [
     "static/css/main.0a117135.css",
-    "static/js/main.b321e85c.js"
+    "static/js/main.b6f384ee.js"
   ]
 }
